@@ -1,0 +1,15 @@
+header{
+    height: 180px;
+    display: flex;
+    .logo-header{
+        max-width: 60px;
+    }
+    .header-list{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        li{
+            margin: 20px;
+        }
+    }
+}

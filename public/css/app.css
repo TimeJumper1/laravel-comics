@@ -1,0 +1,28 @@
+header {
+  height: 180px;
+  display: flex;
+}
+
+header .logo-header {
+  max-width: 60px;
+}
+
+header .header-list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+header .header-list li {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
