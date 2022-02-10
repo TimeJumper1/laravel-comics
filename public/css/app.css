@@ -105,6 +105,18 @@ main .comic-container .product h3 {
   max-width: 100%;
   width: 50px;
 }
+.comics-details .more-info {
+  display: flex;
+  background-color: #f6f6f6;
+}
+.comics-details .more-info .talent {
+  width: 50%;
+}
+.comics-details .more-info .talent .art {
+  display: flex;
+  margin: 10px;
+  border-top: 1px solid black;
+}
 
 .info-container {
   height: 200px;

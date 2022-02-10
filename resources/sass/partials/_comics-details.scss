@@ -38,4 +38,16 @@
             }
         }
     }
+    .more-info{
+        display: flex;
+        background-color:#f6f6f6 ;
+        .talent{
+            width: 50%;
+            .art{
+                display: flex;
+                margin: 10px;
+                border-top:1px solid black ;
+            }
+        }
+    }
 }

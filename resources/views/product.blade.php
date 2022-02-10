@@ -30,15 +30,46 @@ single-element
                 <img class="" src="{{ asset('images/adv.jpg') }}" alt="publicita visa">
             </div>
         </div>
-        <div class="le altre info">
+        <div class="more-info">
             <div class="talent">
-                art by
-                written by
+                <h2>Talent</h2>
+                <div class="art">
+                    <h4>Art by</h4>
+                    <div>
+                        @foreach ($product_info['artists'] as $artists)
+                            <span>{{ $artists }},</span>
+                        @endforeach
+                    </div>
+                </div>
+                <div class="art">
+                    <h4>written by</h4>
+                    <div>
+                        @foreach ($product_info['writers'] as $writers)
+                            <span>{{ $writers }},</span>
+                        @endforeach
+                    </div>
+                </div>
             </div>
-            <div class="spec">
-                series
-                us price
-                on sale date
+            <div class="talent">
+                <h2>Specs</h2>
+                <div class="art">
+                    <h4>series</h4>
+                    <div>
+                        {{ $product_info['series'] }} 
+                    </div>
+                </div>
+                <div class="art">
+                    <h4>U.S. Price</h4>
+                    <div>
+                        {{ $product_info['price'] }} 
+                    </div>
+                </div>
+                <div class="art">
+                    <h4>On Sale Date</h4>
+                    <div>
+                        {{ $product_info['sale_date'] }} 
+                    </div>
+                </div>
             </div>
         </div>
     </section>
