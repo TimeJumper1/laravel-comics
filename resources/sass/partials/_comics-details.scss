@@ -1,0 +1,41 @@
+.comics-details{
+    width: 60%;
+    margin: auto;
+    .single-image{
+        border: 1px solid white;
+    }
+    .info-box{
+        
+        display: flex;
+        flex-direction: row;
+        .sinistra{
+            .price-box{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 10px;
+                background-color:#55ba59 ;
+                
+                .price{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    
+                    .color-green{
+                        color: #9fe87b;
+                    }
+                    .color-white{
+                        color: white;
+                    }
+                }
+            }
+        }
+        .destra{
+            .ad{
+                height: 200px;
+                max-width: 100%;
+                width: 50px;
+            }
+        }
+    }
+}

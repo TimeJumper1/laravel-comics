@@ -11,17 +11,23 @@ single-element
             <img src="{{ $product_info['thumb'] }}" alt="">
             
         </div>
-        <div class="da fare con un flex">
+        <div class="info-box">
             <div class="sinistra">
-                <h2>titolo</h2>
-                <div>
-                    box con dentro prezzo e disponibilita
+                <h2 class="title">{{ $product_info['title'] }}</h2>
+                <div class="price-box">
+                   <div class="price">
+                    <h3 class="color-green">U.S. Price: <span class="color-white">{{ $product_info['price'] }}</span> </h3>
+                    <h3 class="color-green">AVAILABLE</h3>
+                   </div>
+                   <div class="availibiliy">
+                    <h3 class="color-white">Check Availability</h3>
+                   </div>
                 </div>
-                <p>tutte info</p>
+                <p>{{ $product_info['description'] }}</p>
             </div>
             <div class="destra">
                 <h3>advertisment</h3>
-                <img src="" alt="">
+                <img class="" src="{{ asset('images/adv.jpg') }}" alt="publicita visa">
             </div>
         </div>
         <div class="le altre info">

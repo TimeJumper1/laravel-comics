@@ -71,6 +71,41 @@ main .comic-container .product h3 {
   color: white;
 }
 
+.comics-details {
+  width: 60%;
+  margin: auto;
+}
+.comics-details .single-image {
+  border: 1px solid white;
+}
+.comics-details .info-box {
+  display: flex;
+  flex-direction: row;
+}
+.comics-details .info-box .sinistra .price-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #55ba59;
+}
+.comics-details .info-box .sinistra .price-box .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.comics-details .info-box .sinistra .price-box .price .color-green {
+  color: #9fe87b;
+}
+.comics-details .info-box .sinistra .price-box .price .color-white {
+  color: white;
+}
+.comics-details .info-box .destra .ad {
+  height: 200px;
+  max-width: 100%;
+  width: 50px;
+}
+
 .info-container {
   height: 200px;
   background-color: #0282f9;
