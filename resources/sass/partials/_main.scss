@@ -1,5 +1,8 @@
 main {
     background-color:#1c1c1c ;
+    &.single-element {
+        background-color: white;
+    }
     .comic-container {
         display: flex;
         flex-direction: row;

@@ -11,7 +11,8 @@
 <body>
     @include('partials.header')
     @include('partials.jumbotron')
-    <main>
+    <a href="">current series</a>
+    <main class="@yield('main_classes')">
         @yield('main_content')
     </main>
     <div>

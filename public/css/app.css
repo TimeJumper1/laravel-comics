@@ -51,6 +51,9 @@ header .header-container .header-list li {
 main {
   background-color: #1c1c1c;
 }
+main.single-element {
+  background-color: white;
+}
 main .comic-container {
   display: flex;
   flex-direction: row;
