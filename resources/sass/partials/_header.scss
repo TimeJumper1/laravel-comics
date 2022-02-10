@@ -1,15 +1,23 @@
 header{
-    height: 180px;
-    display: flex;
-    .logo-header{
-        max-width: 60px;
+    .top-header{
+        height: 20px;
+        background-color: $primary_color;
     }
-    .header-list{
+    .header-container{
+        height: 180px;
         display: flex;
         flex-direction: row;
-        padding: 10px;
-        li{
-            margin: 20px;
+        .logo-header{
+            max-width: 60px;
+            max-height: 60px;
+        }
+        .header-list{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            li{
+                margin: 20px;
+            }
         }
     }
 }

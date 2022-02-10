@@ -1,0 +1,25 @@
+main {
+    background-color:#1c1c1c ;
+    .comic-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .product {
+            text-align: left;
+            
+            width: calc( (100% / 6) - 10px );
+            margin: 5px;
+            img{
+                max-width: 100%;
+            }
+            h3{
+                color: white;
+            }
+        }
+    }
+
+    
+
+    
+}

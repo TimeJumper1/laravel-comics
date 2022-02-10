@@ -10,20 +10,16 @@
 </head>
 <body>
     @include('partials.header')
-    <div>
-        jumbotron
-    </div>
+    @include('partials.jumbotron')
     <main>
-        parte da popolare tramite l'array
+        @yield('main_content')
     </main>
     <div>
-        partials in blu
+        @include('partials.info')
     </div>
     <div>
-        partials jumbotron footer
+        @include('partials.footer-jumbotron')
     </div>
-    <div>
-        partial footer
-    </div>
+    @include('partials.footer')
 </body>
 </html>
